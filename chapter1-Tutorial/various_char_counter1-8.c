@@ -11,7 +11,6 @@ int main() {
     } else if (ch == '\t') {
       tab_cnt++;
     }
-    //putchar(ch);
   }
   printf("line cnt = %d, blank cnt = %d, tab cnt = %d\n", line_cnt, blank_cnt, tab_cnt);
   return 0;
